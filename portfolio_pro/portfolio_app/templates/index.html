@@ -1,0 +1,313 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="shortcut icon" href="{% static 'assets/10003764.png' %}" type="image/x-icon">
+</head>
+
+<body id="Home">
+    <header>
+        <div class="nav">
+            <div class="nav-img">
+                <img src="{% static 'assets/3665989.png' %}" alt="logo-img">
+            </div>
+            <div class="nav-right">
+                <a href="#Home">
+                    <p>Home</p>
+                </a>
+                <a href="#About">
+                    <p>About</p>
+                </a>
+                <a href="#Skills">
+                    <p>Skills</p>
+                </a>
+                <a href="#Education">
+                    <p>Education</p>
+                </a>
+                <a href="#Certificate">
+                    <p>Certificates</p>
+                </a>
+                <a href="#project">
+                    <p>Project</p>
+                </a>
+                <a href="#contact-section">
+                    <p>Contact me</p>
+                </a>
+                <a href="{% static 'assets/VishalPandeyResume.pdf' %}" target="_blank">
+                    <button
+                        style="padding: 8px 16px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                        Resume
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section>
+        <div class="middle">
+            <div class="left-about">
+                <p>Hi, I'm </p>
+                <p>Vishal Pandey</p>
+                <p id="type-writer">"Working Smart. Coding Smarter."</p>
+            </div>
+            <div class="right-img">
+                <img src="{% static 'assets/vishal_instagram_dp_final_fixed.png' %}" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section>
+        <div id="About" class="about">
+            <p>About me</p>
+        </div>
+        <div class="about-me">
+            <div class="img"><img src="{% static 'assets/a1ba2c150d44d387f565a87c54351bf8.gif' %}" alt=""></div>
+            <ul>
+                <li>Hi, I'm Vishal</li>
+                <li>"From Logic to Layout — I Build It All" As a Python Full Stack Developer,</li>
+                <li>I bring together backend logic and frontend design to build complete, functional web applications.
+                </li>
+                <li>With experience in Django, Flask, HTML, CSS, and JavaScript, I aim to create clean, efficient, and
+                    scalable web solutions.</li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="Skills" class="skills">
+            <p>Skills</p>
+        </div>
+        <div class="skills-img">
+            <div class="box"><img src="{% static 'assets/html5-logo-html-logo-0.png' %}" alt="html">
+                <p>HTML</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/css.39769a8bd378bf410d6b381a8d88fa35.svg' %}" alt="css">
+                <p>CSS</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/javascript.4c1b5332c1b1057928f6f06cf972c91c.svg' %}"
+                    alt="script">
+                <p>JAVA SCRIPT</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/react.4e0c97009b885bfa75c5412262a46f5f.svg' %}"
+                    alt="express.js">
+                <p>React</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/react.4e0c97009b885bfa75c5412262a46f5f.svg' %}" alt="react">
+                <p>REACT</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/java-ar21 (1).svg' %}" alt="java">
+                <p>JAVA</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/python.svg' %}" alt="python">
+                <p>PYTHON</p>
+            </div>
+            <div class="box"><img src="{% static 'assets/database.24991eee32623f453b1c.png' %}" alt="DSA">
+                <p>DSA</p>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <section id="Education">
+            <div class="education">
+                <p>Education</p>
+                <div class="education-details">
+                    <div class="card-1">
+                        <h3>Polytechnic in Computer Science & Engg.</h3>
+                        <p>Government Polytechnic Katai joya Amroha</p>
+                        <p>2022-2025</p>
+                    </div>
+                    <div class="card-1">
+                        <h3>Higher Secondary (12th)</h3>
+                        <p>Ah Inter College</p>
+                        <p>Year of Passing: 2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="Certificate">
+            <div class="certificates">
+                <p>Certificates</p>
+                <div class="certificate-section">
+
+                    <!-- Grastech Python Fullstack Certificate -->
+                    <div class="certificate-card">
+                        <img src="{% static 'assets/corejava_certificate.jpg' %}"
+                            alt="Grastech Python Fullstack Certificate">
+                        <h3>Python Fullstack (GRAStech)</h3>
+                        <p>Completed a project-based full stack development training in Python, Django, Flask,
+                            JavaScript, HTML, CSS, and MySQL. Built and deployed web applications, REST APIs, and
+                            learned modern software development best practices through hands-on assignments and team
+                            collaboration.</p>
+                    </div>
+
+
+
+                    <!-- Udemy Python Bootcamp Certificate -->
+                    <div class="certificate-card">
+                        <img src="{% static 'assets/Udemy_certificateUC-a92a737d-ae10-4937-b16c-78f88ca9102e.jpg' %}"
+                            alt="Python Bootcamp Certificate">
+                        <h3>Python Bootcamp (Udemy)</h3>
+                        <p>Completed the 2025 Complete Python Bootcamp (12.5 hours) covering Python basics to advanced
+                            topics.</p>
+                    </div>
+
+                    <!-- GRAStech Core Java Certificate -->
+                    <div class="certificate-card">
+                        <img src="{% static 'assets/Corejava1726153347191.jfif' %}" alt="Core Java Certificate">
+                        <h3>Core Java (GRAStech)</h3>
+                        <p>Successfully completed a 6-week summer training in Core Java, focusing on OOP and real-world
+                            projects.</p>
+                    </div>
+
+                    <!-- Wadhwani Foundation Employability Certificate -->
+                    <div class="certificate-card">
+                        <img src="{% static 'assets/Wadhwani Foundation Certificate - 67fd10a2eeacc2785e213d58_page-0001 (1).jpg' %}"
+                            alt="Wadhwani Foundation Certificate">
+                        <h3>Employability Skills (Wadhwani Foundation)</h3>
+                        <p>Completed a 113-hour employability skills program improving communication, teamwork, and job
+                            preparedness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="project">
+            <div class="project">
+                <p>Projects</p>
+            </div>
+            <div class="project-section">
+                <div class="project-card">
+                    <img src="{% static 'assets/AI_chat_bot.jpg' %}" alt="AI Chatbot">
+                    <h3>AI Chatbot</h3>
+                    <p>Built an intelligent AI-powered chatbot using NLP and Python backend for real-time conversational
+                        Q&A.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/vishalfullstack1/AI-chat-bot" target="_blank" rel="noopener noreferrer"
+                            class="btn">GitHub</a>
+                        <a href="https://demo-url.com/ai-chatbot" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'assets/ai_reel.png' %}" alt="AI Reel Generator">
+                    <h3>AI Reel Generator</h3>
+                    <p>Developed an AI-based video reel generator with animation and media processing features.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/vishalfullstack1/AI-Reel-Gen" target="_blank"
+                            rel="noopener noreferrer" class="btn">GitHub</a>
+                        <a href="https://demo-url.com/ai-reel-generator" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'assets/generated-image (2).png' %}" alt="Resume Analyzer">
+                    <h3>Resume Analyzer</h3>
+                    <p>Created an AI-powered resume analyzer with parsing, scoring, and personalized job suggestions.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/vishalfullstack1/resume-analyzer" target="_blank" rel="noopener noreferrer"
+                            class="btn">GitHub</a>
+                        <a href="https://demo-url.com/resume-analyzer" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'assets/tweeter.jpg' %}" alt="Twitter Page Clone">
+                    <h3>Twitter Page Clone</h3>
+                    <p>Designed a Twitter-like social media app with user authentication, posts, likes, and real-time
+                        updates.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/vishalfullstack1/tweet-app" target="_blank" rel="noopener noreferrer"
+                            class="btn">GitHub</a>
+                        <a href="https://demo-url.com/twitter-clone" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="{% static 'assets/ai_news.jpg' %}" alt="AI News App">
+                    <h3>AI News App</h3>
+                    <p>Built an AI-powered news aggregator app that fetches, categorizes, and summarizes daily news
+                        articles.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/vishalfullstack1/AI-News-App" target="_blank" rel="noopener noreferrer"
+                            class="btn">GitHub</a>
+                        <a href="https://demo-url.com/ai-news-app" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <div class="contact">
+                <p>Contact Me</p>
+                <!-- Messages (success / error) -->
+                <div class="messages">
+                    {% if messages %}
+                    {% for m in messages %}
+                    <div class="msg {% if m.tags %}{{ m.tags }}{% endif %}">{{ m }}</div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+
+                <!-- Django Form -->
+                <form method="post" action="">
+                    {% csrf_token %}
+                    <input type="text" name="name" placeholder="Name..." required>
+                    <input type="email" name="email" placeholder="Email..." required>
+                    <textarea name="message" id="Message" placeholder="Message..." rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="hr"></div>
+        <footer>
+            <div class="footer-manage">
+                <div class="footer">
+                    <div class="main">
+                        <ul>
+                            <a href="#Home">
+                                <li>Home</li>
+                            </a>
+                            <a href="#contact-section">
+                                <li>Contact me</li>
+                            </a>
+                            <li>Refund Policy</li>
+                            <li>Terms & Condition</li>
+                        </ul>
+                    </div>
+                    <div class="contact-us">
+                        <ul>
+                            <li class="footer-text">Email: vishalfullstack1@gmail.com</li>
+                            <li class="footer-text">Phone: +91 9335078851</li>
+                            <li><a href="https://www.facebook.com/vishalpaney799" target="_blank">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/vishalpandey_799/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/vishal-pandey-a8ab3b324/"
+                                    target="_blank">LinkedIn</a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="last">
+                    <p>Copyright © 2025</p>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
